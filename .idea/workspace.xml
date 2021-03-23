@@ -22,6 +22,7 @@
     <list default="true" id="b475d8e9-fa05-4510-9549-3538a825d3e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616525335591</updated>
       <workItem from="1616525336770" duration="1243000" />
-      <workItem from="1616540252295" duration="1480000" />
+      <workItem from="1616540252295" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1616541522141</created>
@@ -61,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616541522141</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1616541774137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616541774137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +89,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="570" y="207" key="#Web_Browsers" timestamp="1616542389396">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="570" y="207" key="#Web_Browsers/0.0.1536.834@0.0.1536.834" timestamp="1616542389396" />
   </component>
 </project>

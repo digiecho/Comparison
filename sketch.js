@@ -25,7 +25,7 @@ function preload() {
 // img2= loadImage("after.jpg");  
   
   //load Gif
-  smaller = loadImage('smallr.gif');
+  smaller = loadImage('fairy.gif');
   
 }
 
@@ -37,20 +37,24 @@ function setup() {
   // c.drop(gotFile);
     // input before and after images
   input = createFileInput(handleFile);
-  input.position(0, height +200);
+  input.position(300, height +50);
+  // text = Text("Before");
+  // text.position(300, height +20);
+
   input2 = createFileInput(handleFile2);
-  input2.position(200, height +200);
+  input2.position(600, height +50);
+
   
 //create button to reset animation/frame rate
   button = createButton('Replay');
-  button.position(0,height + 100);
+  button.position(0,height + 110);
   button.mouseClicked(clicked);
   
   //create button to record
 
 
   //create slider for text size
-  slider = createSlider(0, 80, 50);
+  slider = createSlider(0, 100, 70);
   slider.position(0, height + 50);
   
   //create text fields
@@ -58,8 +62,8 @@ function setup() {
   //create dragable objects with font and color 
   let cnt = "Pixie Dust";
   let cntWidth = textWidth(cnt)
-  companyName = new Draggable(cnt, 10, 10, 300, 200);
-  beforeandafter = new Draggable(baf, 10, 200, 200, 200);
+  companyName = new Draggable(cnt, 10, 10, 400, 200);
+  beforeandafter = new Draggable(baf, 10, 450, 200, 200);
   textFont("Dancing Script")
   colorPicker = createColorPicker('#ed225d');
   colorPicker.position(0, height + 5);  
